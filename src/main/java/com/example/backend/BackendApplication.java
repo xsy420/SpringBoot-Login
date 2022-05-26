@@ -10,8 +10,8 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @SpringBootApplication
 @EnableCaching
 @EnableSwagger2
-@MapperScan({"com.gitee.sunchenbin.mybatis.actable.dao.*"})
-@ComponentScan("com.gitee.sunchenbin.mybatis.actable.manager.*")
+@MapperScan({"com.example.backend.mapper", "com.gitee.sunchenbin.mybatis.actable.dao.*"})
+@ComponentScan({"com.example.backend.*", "com.gitee.sunchenbin.mybatis.actable.manager.*"})
 public class BackendApplication {
 
     public static void main(String[] args) {

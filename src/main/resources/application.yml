@@ -27,7 +27,7 @@ spring:
     name: service-swagger
 
 mybatis-plus:
-  mapper-locations: classpath*:mapper/*.xml,classpath*:com/gitee/sunchenbin/mybatis/actable/mapping/*/*.xml
+  mapper-locations: classpath:mapper/*.xml,classpath:com/gitee/sunchenbin/mybatis/actable/mapping/*/*.xml
 
 mybatis:
   table:
